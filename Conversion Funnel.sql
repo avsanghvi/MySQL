@@ -31,5 +31,8 @@ from T7
 JOIN website_pageviews wp on T7.website_session_id=wp.website_session_id
 group by Prodct_Name;
 
-
-
+Prodct_Name	Total_Sessions	Cart	Shipping	Billing	ThankYou
+Hudson_bear	2610	1700	1148	918	581
+Love_bear	26033	14485	9732	7738	4803
+Mr_Fuzzy	162525	69957	47601	38586	23861
+Sugar_Panda	19046	8811	6003	4816	3068
